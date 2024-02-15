@@ -14,7 +14,12 @@ class dram_cov extends uvm_subscriber#(dram_seq_item);
     ADDRESS:coverpoint packet.add{
       bins addr[] = {[0:64]};
     }
-   
+    WRITE: coverpoint packet.wr{
+      bins writ[] ={[0:1]};
+    }
+    ENABLE: coverpoint packet.en{
+      bins ena[] = {[0:1]};
+    }
 
   endgroup
 

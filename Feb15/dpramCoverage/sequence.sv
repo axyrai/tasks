@@ -48,7 +48,7 @@ task body();
 
 pkt=dram_seq_item::type_id::create("pkt");
 
-  repeat(100)
+  repeat(5000)
 
 begin
 

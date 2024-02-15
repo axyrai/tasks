@@ -6,7 +6,7 @@ import uvm_pkg::*;
 
 //`include "DESIGN.sv"
 
-//`include "DUT.sv"
+`include "design.sv"
 
 `include "sequenc_item.sv"
 
